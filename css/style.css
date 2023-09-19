@@ -1,24 +1,125 @@
-body{
+body {
     box-sizing: border-box;
     margin: auto;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sf;
+    background-color: #E5E4E2;
 }
 
-header{
+header {
     background-color: white;
     height: 60px;
     padding: 10px;
 }
 
-#logo{
+#logo {
     vertical-align: middle;
 }
 
-#title{
+#title {
     font-weight: bold;
     font-size: 40px;
     vertical-align: middle;
 }
 
+main {
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+}
 
+.button {
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    color: white;
+}
+
+.buttoncontainer {
+    margin-left: 50px;
+}
+
+.grey {
+    background-color: white;
+    border: 2px solid lightgrey;
+    color: lightgray;
+}
+
+.container {
+    background-color: white;
+
+}
+
+.top {
+    padding: 20px;
+
+}
+
+.bottom {
+    padding: 20px;
+    margin-top: 3px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul,
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkright::before {
+    content: "\2713";
+    color: green;
+    padding-left: 3px;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-right: 1em;
+
+}
+
+.checkwrong::before{
+    content: "\2715";
+    color: red;
+    padding-left: 3px;
+    border-radius: 50%;
+    border: 1px solid red;
+    margin-right: 1em;
+
+}
+
+.box {
+    border-radius: 10px;
+    color: white;
+    font-size: small;
+    padding: 6px;
+    height: 5px;
+    width: 10px;
+}
+
+.blue {
+    background-color: #47A9E8;
+}
+
+.purple {
+    background-color: #9C72E3;
+}
+
+.green {
+    background-color: #63BEA9;
+}
+
+.orange {
+    background-color: #F39C34;
+
+}
+
+.pink {
+    background-color: #D563A0;
+}
+
+.lightgreen {
+    background-color: #B1C729;
+}
